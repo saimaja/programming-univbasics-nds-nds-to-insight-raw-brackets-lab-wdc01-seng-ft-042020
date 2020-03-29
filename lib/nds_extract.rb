@@ -31,5 +31,5 @@ def directors_totals(nds)
   directors_totals = {
    
   }
-  end
+ end
 
