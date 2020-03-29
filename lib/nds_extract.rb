@@ -4,7 +4,9 @@ pp directors_database
 
 def directors_totals(nds)
 
-  totals = {}   #i set a starting empty hash here
+  totals = {
+    
+  }   
   i = 0 
   directors = directors_database[:names]
   gross = directors_database[:movies][:worldwide_gross]
