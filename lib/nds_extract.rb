@@ -26,5 +26,9 @@ def list_of_directors(source)
   end
   director_list
 end	
+
+def total_gross(source)
+  	
+end	end
   
 
