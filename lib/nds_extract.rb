@@ -5,10 +5,9 @@ pp directors_database
 def directors_totals(nds)
   result = {}	  
   director_index = 0	  
-  director_index = 0
-directors_totals(source)
-  result	  result
-end	end
+  result	  
+end
+
   results = {}   
   i = 0 
   directors = nds[:names]
