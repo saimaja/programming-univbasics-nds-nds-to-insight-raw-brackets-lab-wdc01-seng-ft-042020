@@ -32,4 +32,4 @@ def directors_totals(nds)
    
   }
   end
-end
+
