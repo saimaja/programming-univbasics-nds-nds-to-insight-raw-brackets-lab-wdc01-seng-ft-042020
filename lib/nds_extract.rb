@@ -8,6 +8,9 @@ def directors_totals(nds)
   result	  
 end
 
+def gross_for_director(d)
+  total = 0	
+  index = 0	
   results = {}   
   i = 0 
   directors = nds[:names]
