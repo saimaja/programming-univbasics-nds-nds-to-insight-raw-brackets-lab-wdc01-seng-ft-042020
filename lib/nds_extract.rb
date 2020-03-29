@@ -14,9 +14,7 @@ def gross_for_director(d)
     total += d[:movies][index][:worldwide_gross]	   
     index += 1	  
   end
-  total
-end
-  
+ 
 def list_of_directors(source)
   director_index = 0
   director_list = Array.new
@@ -24,8 +22,7 @@ def list_of_directors(source)
     director_list.push(source[director_index][:name])
     director_index += 1
   end
-  director_list
-end	
+ 
 
 def total_gross(source)
   total_gross_of_earnings = 0
