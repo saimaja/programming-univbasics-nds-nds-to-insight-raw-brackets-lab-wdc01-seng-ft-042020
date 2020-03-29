@@ -10,11 +10,10 @@ def directors_totals(nds)
   gross = directors_database[:movies][:worldwide_gross]
   
   while i < directors_database.length do
-    totals.push()
-  #i'll use while loops to push the keys and values into the hash
-
-   totals #finally, i return the updated hash
-
+    totals.push("#{directors[i]} => #{gross[i]}")
+    i += 1
+  end
+  totals
+end
   
- end
 
