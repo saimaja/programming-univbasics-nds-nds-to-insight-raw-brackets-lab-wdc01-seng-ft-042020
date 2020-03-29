@@ -4,14 +4,12 @@ pp directors_database
 
 def directors_totals(nds)
 
-  totals = {
-    
-  }   
+  totals = {}   
   i = 0 
-  directors = directors_database[:names]
-  gross = directors_database[:movies][:worldwide_gross]
+  directors = nds[:names]
+  gross = nds[:movies][:worldwide_gross]
   
-  while i < directors_database.length do
+  while i < nds.length do
     totals.push("#{directors[i]} => #{gross[i]}")
     i += 1
   end
